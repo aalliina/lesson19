@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Поменять фоновый цвет</button>
+    <script>
+document.querySelector('button').addEventListener('click', changeColor);
+const change = document.querySelector('body');
+
+counter = 0;
+function changeColor(){
+    const colors = ["cyan", "plum", "pink",  ];
+    const len = colors.length;
+
+    counter = (counter + 1) % len;
+    document.body.style.backgroundColor = colors[counter];
+}
+
+
+
+
+
+
+
+
+
+
+//     let num1 = prompt("1. Введите число");
+//     let num2 = prompt("Введите второе число");
+//     let question = prompt("Какое действие вы хотите совершить?   1)Добавление   2)Вычитание   3)Умножение   4)Деление")
+// if (question == '1'){
+//     alert(`${num1} + ${num2} = ${num1 + num2}`)
+//     }
+// if (question == '2'){
+//     alert(`${num1} - ${num2} = ${num1-num2}`)
+// }
+// if (question == '3'){
+//     alert(`${num1} * ${num2} = ${num1*num2}`)
+// }
+// if (question == '4'){
+//     alert(`${num1} : ${num2} = ${num1/num2}`)
+// // }
+// let num1 = prompt('2. Введите число');
+// num1 = Number(num1);
+// let num2 = prompt('Введите второе число');
+// num2 = Number(num2);
+// let selectAction = prompt(' (+ , - , * , /)');
+// switch (selectAction) {
+//     case '+':
+//         alert (num1 + num2);
+//         break;
+//     case '-':
+//         alert (num1 - num2);
+//         break;
+//     case '/':
+//         alert (num1 / num2);
+//         break;
+//     case '*':
+//         alert (num1 * num2);
+// }
+
+
+
+
+
+// function total (a, b){
+//  c = a + b
+//  console.log(c)
+// } 
+// n1 = +prompt('Введите число')
+// n2 = +prompt('Введите второе число')
+// total(n1, n2)
+// function total (a, b){
+//  c = a - b
+//  console.log(c)
+// } 
+
+
+
+
+// n1 = +prompt('Введите число')
+// n2 = +prompt('Введите второе число')
+// total(n1, n2)
+// function total (a, b){
+//  c = a * b
+//  console.log(c)
+// } 
+// function total (a, b){
+//  c = a / b
+//  console.log(c)
+// } 
+
+// n1 = +prompt('Введите число')
+// n2 = +prompt('Введите второе число')
+// total(n1, n2)
+
+
+
+
+
+// // n1 = +prompt('Введите число')
+// // n2 = +prompt('Введите второе число')
+// function divide (a, b) {
+//     return a / b
+// }
+// let result = divide(10, 30)
+// console.log(`result: ${result}`)
+
+
+ </script>
+</body>
+</html>
